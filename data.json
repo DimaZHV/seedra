@@ -1,0 +1,52 @@
+{
+	"products": [
+		{
+			"image": "./img/image 1.png",
+			"description": "Seedra Cilantro Seeds for Planting Indoor and Outdoor",
+			"price": "$12.56",
+			"imageHot": "",
+			"priceOld": "",
+			"imgLike": "./img/likeempty.png"
+		},
+		{
+			"image": "./img/image 2.png",
+			"description": "SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+			"price": "$12.56",
+			"imageHot": "",
+			"priceOld": "",
+			"imgLike": "./img/likeempty.png"
+		},
+		{
+			"image": "./img/image 3.png",
+			"description": "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+			"price": "$12.56",
+			"imageHot": "",
+			"priceOld": "",
+			"imgLike": "./img/likeempty.png"
+		},
+		{
+			"image": "./img/image 4.png",
+			"description": "Seedra Cilantro Seeds for Planting Indoor and Outdoor",
+			"price": "$12.56",
+			"imageHot": "",
+			"priceOld": "",
+			"imgLike": "./img/likeempty.png"
+		},
+		{
+			"image": "./img/image 5.png",
+			"description": "SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting",
+			"price": "$12.56",
+			"imageHot": "./img/ant-design_fire-filled.png",
+			"priceOld": "$15.56",
+			"imgLike": "./img/likefull.png"
+		},
+		{
+			"image": "./img/image 6.png",
+			"description": "SEEDRA Spinach Seeds for Indoor and Outdoor Planting",
+			"price": "$12.56",
+			"imageHot": "",
+			"priceOld": "",
+			"imgLike": "./img/likeempty.png"
+		}
+	]
+}
