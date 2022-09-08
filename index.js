@@ -79,3 +79,28 @@ function defaultAll(e) {
 	}
 	targets.className = "category_button_checked";
 }
+
+//const swiper = document.querySelector(".slider").swiper;
+new Swiper(".slider", {
+	loop: true,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+		type: "bullets",
+	},
+	centeredSlides: true,
+	slidesPerView: "auto",
+	spaceBetween: 5,
+	autoHeight: true,
+	breakpoints: {
+		1400: {
+			slidesPerView: "auto",
+		},
+		1399: {
+			spaceBetweenSlides: 10,
+			slidesPerView: "1",
+		},
+	},
+});
+// Now you can use all slider methods like
+//swiper.slideNext();
