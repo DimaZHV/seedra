@@ -449,7 +449,13 @@ header {
 		@media (max-width: 1399px) {
 			flex-direction: column;
 		}
-		.product {
+		.product,
+		.product-bundles,
+		.product-herbs,
+		.product-vegetables,
+		.product-fruits,
+		.product-supplies,
+		.product-flowers {
 			width: 350px;
 			height: 512px;
 			left: 165px;

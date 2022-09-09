@@ -665,7 +665,13 @@ header {
   }
 }
 
-.block_two .products .product {
+.block_two .products .product,
+.block_two .products .product-bundles,
+.block_two .products .product-herbs,
+.block_two .products .product-vegetables,
+.block_two .products .product-fruits,
+.block_two .products .product-supplies,
+.block_two .products .product-flowers {
   width: 350px;
   height: 512px;
   left: 165px;
@@ -675,12 +681,24 @@ header {
 }
 
 @media (max-width: 1399px) {
-  .block_two .products .product {
+  .block_two .products .product,
+  .block_two .products .product-bundles,
+  .block_two .products .product-herbs,
+  .block_two .products .product-vegetables,
+  .block_two .products .product-fruits,
+  .block_two .products .product-supplies,
+  .block_two .products .product-flowers {
     margin: 0px auto;
   }
 }
 
-.block_two .products .product .prod_pic {
+.block_two .products .product .prod_pic,
+.block_two .products .product-bundles .prod_pic,
+.block_two .products .product-herbs .prod_pic,
+.block_two .products .product-vegetables .prod_pic,
+.block_two .products .product-fruits .prod_pic,
+.block_two .products .product-supplies .prod_pic,
+.block_two .products .product-flowers .prod_pic {
   width: 294px;
   height: 294px;
   border-radius: 12px;
