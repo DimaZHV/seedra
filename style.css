@@ -77,14 +77,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 72px;
-  /*.like {
-		display: flex;
-		flex-direction: row;
-		margin: auto 0px;
-		width: 24px;
-		height: 24px;
-		gap: 24px;
-	}*/
 }
 
 @media (max-width: 1399px) {
@@ -287,6 +279,12 @@ header {
   width: 650px;
   height: 355px;
   margin: 48px 0px 52px 76px;
+}
+
+@media (max-width: 1399px) {
+  .block_one .block_top .block_top_description {
+    width: 350px;
+  }
 }
 
 .block_one .block_top .block_top_description .block_top_description_top {

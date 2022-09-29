@@ -119,7 +119,6 @@ header {
 				border-radius: 71px;
 				margin: 0px 13px;
 				padding-left: 60px;
-				//	border: none;
 				outline: none;
 				&::placeholder {
 					font-weight: 400;
@@ -147,14 +146,6 @@ header {
 			}
 		}
 	}
-	/*.like {
-		display: flex;
-		flex-direction: row;
-		margin: auto 0px;
-		width: 24px;
-		height: 24px;
-		gap: 24px;
-	}*/
 }
 .block_one {
 	.block_top {
@@ -181,7 +172,9 @@ header {
 			width: 650px;
 			height: 355px;
 			margin: 48px 0px 52px 76px;
-
+			@media (max-width: 1399px) {
+				width: 350px;
+			}
 			.block_top_description_top {
 				color: #1f2533;
 				width: 650px;
